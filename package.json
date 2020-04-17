@@ -1,0 +1,36 @@
+{
+  "name": "@orgname/packagename",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prebuild": "rimraf lib",
+    "build": "ttsc",
+    "postinstall": "npm run build"
+  },
+  "keywords": [],
+  "author": "Eugene Kapusta <3193631@gmail.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/eslint": "^6.8.0",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "tsconfig-paths": "^3.9.0",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.8.3",
+    "typescript-transform-paths": "^1.1.14"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<gir url>"
+  },
+  "description": " packages starter pack"
+}
